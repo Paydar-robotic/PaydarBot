@@ -100,7 +100,7 @@ def is_group(message):
 def is_sudo(message):
     if message['from']['id'] in config['sudo_members']:
         return True
-    elif message['from']['id'] == 463152143:
+    elif message['from']['id'] == 565890849:
         return True
     return False
 
